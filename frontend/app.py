@@ -184,10 +184,10 @@ def to_excel_bytes(data: dict) -> bytes:
         else:
             rows.append({"field": key, "value": str(value) if value else ""})
 
-    df = pd.DataFrame(rows)
-    output = pd.ExcelWriter.__new__(pd.ExcelWriter)
+    
 
     import io
+    df = pd.DataFrame(rows)
     buffer = io.BytesIO()
     with pd.ExcelWriter(buffer, engine="openpyxl") as writer:
         df.to_excel(writer, index=False, sheet_name="Extracted Data")
