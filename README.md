@@ -6,8 +6,8 @@ A production-ready AI system that extracts structured, validated data from
 unstructured text and documents. Feed it a job posting, invoice, news article, 
 or business contact sheet — get back clean JSON every time.
 
-**Live Demo:** [your-app.streamlit.app](https://your-app.streamlit.app)  
-**API Docs:** [your-api.onrender.com/docs](https://your-api.onrender.com/docs)
+**Live Demo:** [data-extraction-pipeline.app](https://data-extraction-pipeline-klyenn7jxajtcxqkhawjtt.streamlit.app/)  
+**API Docs:** [data-extraction-pipeline.onrender.com/docs](https://data-extraction-pipeline-bgva.onrender.com/)
 
 ---
 
