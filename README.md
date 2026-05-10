@@ -11,6 +11,12 @@ or business contact sheet — get back clean JSON every time.
 
 ---
 
+## Demo
+
+![Demo](demo.gif)
+
+---
+
 ## The Problem It Solves
 
 Businesses drown in unstructured text — job descriptions, supplier invoices, 
